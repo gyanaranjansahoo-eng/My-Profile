@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+     <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name"name="name" placeholder="Enter Your Name...">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"name="email" placeholder="Enter Your Email id...">
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone Number...">
+        <br>
+        <label for="reason">Reason of Contacting
+        <select id="reason" name="reason">
+<option value="project">Project</option>
+<option value="internship">Internship</option>
+<option value="freelancing">Freelancing</option>
+<option value="other">Other</option>
+</select>
+</label>
+<br>
+<label for="file">Upload Your Resume:</label>
+<input type="file" accept=".pdf" name="file">
+<br>
+<label for="message">Message</label>
+<br>
+<textarea name="message" id="message" rows="5" cols="40" maxlength="150" placeholder="Message Your Thoughts Here..."></textarea>
+<br>
+<button type="submit">Submit</button>
+<br>
+<button type="reset">Reset</button>
+     </form>
+</body>
+</html>
